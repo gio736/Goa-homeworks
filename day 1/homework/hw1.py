@@ -1,4 +1,4 @@
-print("gegi labadze") 
+print("gegi labadze")  
 
 print("my grandpa ")  
 
