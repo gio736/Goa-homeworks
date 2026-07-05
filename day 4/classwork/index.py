@@ -27,7 +27,7 @@ print("my name is ",name + " ", "my surname is ", surname + " ", "my age is ", a
 
  
 
-print (type("enid ")) 
+print (type("enid")) 
 
 print (type(34))
 
