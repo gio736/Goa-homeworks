@@ -1,0 +1,116 @@
+ 
+<!--   
+Block-level (ბლოკური) ელემენტები: 
+          ყოველთვის იწყებიან ახალი ხაზიდან და იკავებენ გვერდის მთელ ხელმისაწვდომ 
+          სიგანეს (100%-ს). მათზე მოქმედებს სიგანის (width) და სიმაღლის (height) შეცვლა.
+მაგალითად: <div>, <p>, <h1>-<h6>, <section>.
+          
+Inline (ხაზობრივი) ელემენტები: 
+         არ იწყებიან ახალი ხაზიდან, ისინი თავსდებიან იმავე ხაზზე და იკავებენ მხოლოდ 
+         იმ სიგანეს, რაც მათი შიგთავსისთვისაა საჭირო. მათზე სიგანისა და სიმაღლის 
+         მიწერა პირდაპირ არ მოქმედებს.
+         მაგალითად: <span>, <a>, <strong>, <em>.
+
+
+
+
+ <div>  არის არასემანტიკური ბლოკური ელემენტი, რომელიც მუშაობს 
+          როგორც "კონტეინერი" სხვა ელემენტების დასაჯგუფებლად.
+          ის გვჭირდება იმისთვის, რომ:
+          1. მოვაქციოთ მასში რამდენიმე ელემენტი და CSS-ით ყველას ერთად მივცეთ სტილი.
+          2. მარტივად ავაწყოთ საიტის სტრუქტურა და განლაგება (Layout) Flexbox-ის ან Grid-ის დახმარებით.
+           
+
+
+
+Border (ჩარჩო) არის ხაზი, რომელიც ერტყმის ელემენტის შიგთავსსა და დაშორებებს   
+          მას აქვს სამი ძირითადი თვისება: border-width (სისქე), border-style (სტილი) და border-color (ფერი).
+          
+          Border-ის ძირითადი სტილებია (border-style):
+          - solid (მთლიანი, უწყვეტი ხაზი)
+          - dashed (წყვეტილი ხაზი, ტირეები)
+          - dotted (წერტილოვანი ხაზი)
+          - double (ორმაგი ხაზი)
+          - groove (ამოკვეთილი ეფექტი)
+          - ridge (ამოზნექილი ეფექტი)
+          - inset (შიგნით ჩაწეული ეფექტი)
+          - outset (გარეთ გამოწეული ეფექტი)
+          - none (ჩარჩოს გარეშე)
+                                             -->    
+ 
+
+ 
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+</head>
+ 
+<body> 
+     
+
+    <!-- 1-ლი Div (ლურჯი, მყარი ჩარჩოთი - Solid) -->
+    <div style="width: 100%; max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 12px; border: 4px solid #3498db; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">1. დედამიწაზე უამრავი საოცარი და ჯერ კიდევ შეუსწავლელი ადგილი არსებობს.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">2. ოკეანეების უდიდესი ნაწილი ადამიანისთვის კვლავ იდუმალებით არის მოცული.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">3. ყოველდღიურად ბუნებაში უამრავი საინტერესო მოვლენა ხდება ჩვენ გარშემო.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">4. ცხოველთა სამყარო ყოველთვის გვაოცებს თავისი მრავალფეროვნებითა და სილამაზით.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0;">5. პირველი თავგადასავალი აქ მთავრდება, თუმცა წინ ბევრი საინტერესო ამბავია.</p>
+    </div>
+
+    <!-- მე-2 Div (წითელი, წყვეტილი ჩარჩოთი - Dashed) -->
+    <div style="width: 100%; max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 12px; border: 4px dashed #e74c3c; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">1. კოსმოსი წარმოუდგენლად დიდია და მასში მილიარდობით გალაქტიკაა მოქცეული.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">2. ვარსკვლავები, რომლებსაც ღამით ვხედავთ, ხშირად ჩვენგან ძალიან შორს იმყოფებიან.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">3. მეცნიერები მუდმივად ცდილობენ ახალი პლანეტებისა და სისტემების აღმოჩენას.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">4. ღამის ცაზე ყურება ყოველთვის აღძრავს ჩვენში დიდ ინტერესსა და ცნობისმოყვარეობას.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0;">5. კოსმოსური მოგზაურობა მომავალში შესაძლოა ჩვეულებრივ მოვლენად იქცეს.</p>
+    </div>
+
+    <!-- მე-3 Div (მწვანე, წერტილოვანი ჩარჩოთი - Dotted) -->
+    <div style="width: 100%; max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 12px; border: 4px dotted #2ecc71; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">1. ჯანსაღი ცხოვრების წესი გვეხმარება ენერგიისა და კარგი განწყობის შენარჩუნებაში.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">2. დილით ადრე გაღვიძება და ვარჯიში მთელი დღის მანძილზე პროდუქტიულს გვხდის.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">3. სუფთა წყლის სმა ორგანიზმისთვის ერთ-ერთი ყველაზე სასარგებლო ჩვევაა.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">4. ბუნებაში ხშირი გასეირნება ამცირებს სტრესს და გვივსებს ძალებს.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0;">5. საკუთარ ჯანმრთელობაზე ზრუნვა ყოველდღიურად უნდა ვაქციოთ პრიორიტეტად.</p>
+    </div>
+
+    <!-- მე-4 Div (იასამნისფერი, ორმაგი ჩარჩოთი - Double) -->
+    <div style="width: 100%; max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 12px; border: 6px double #9b59b6; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">1. წიგნების კითხვა საუკეთესო გზაა ახალი სამყაროებისა და იდეების აღმოსაჩენად.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">2. ყოველი ახალი გვერდი გვაძლევს შესაძლებლობას ვისწავლოთ რაღაც განსხვავებული.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">3. ლიტერატურა ავითარებს ფანტაზიას და გვეხმარება სამყაროს უკეთ გაგებაში.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">4. ბევრი ადამიანი კითხვით იწყებს ან ასრულებს თავის დატვირთულ დღეს.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0;">5. კარგი წიგნი მუდამ საუკეთესო მეგობარი და მრჩეველია ნებისმიერ დროს.</p>
+    </div>
+
+    <!-- მე-5 Div (ყვითელი, ჩაღრმავებული ჩარჩოთი - Groove) -->
+    <div style="width: 100%; max-width: 600px; background-color: #ffffff; padding: 25px; border-radius: 12px; border: 4px groove #f1c40f; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">1. ტექნოლოგიური პროგრესი ყოველდღიურად ცვლის ჩვენს ცხოვრებას უკეთესობისკენ.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">2. დღესდღეობით ინფორმაციის მიღება და გაზიარება წამებშია შესაძლებელი.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">3. ახალი პროგრამები და ხელსაწყოები საქმეს ბევრად უფრო მარტივს ხდის.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 1px solid #f0f0f0;">4. საინტერესოა იმის წარმოდგენა, თუ როგორი იქნება ჩვენი სამყარო მომავალში.</p>
+        <p style="color: #555555; font-size: 15px; line-height: 1.6; margin: 0;">5. მთავარია, სიახლეებს ყოველთვის ინტერესითა და მონდომებით შევხვდეთ.</p>
+
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
