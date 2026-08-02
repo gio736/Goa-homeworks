@@ -1,0 +1,65 @@
+
+div h1 {
+        color: green;
+
+
+
+} 
+
+div p {
+       background-color: yellow;
+
+
+}
+
+ 
+.parent-box {
+    color: darkgreen;
+    font-family: Arial, sans-serif;
+}
+
+.parent-box button {
+    background-color: orange;
+    color: white;
+}
+
+#herosection { background-color: red;
+
+
+
+} 
+
+
+
+.button-blue { background-color: blue;
+
+
+}
+
+
+
+.button-grey { background-color: gray ;
+
+
+}
+
+
+.text-style{ color: blue;
+
+
+}
+  
+
+#special-text { color: yellow;
+
+
+
+}
+
+
+
+
+
+
+
+

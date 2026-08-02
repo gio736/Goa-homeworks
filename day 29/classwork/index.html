@@ -1,0 +1,76 @@
+
+<!-- id — უნიკალურია. გამოიყენება მხოლოდ ერთ კონკრეტულ ელემენტზე (CSS-ში იწერება #-ით).
+
+class — მრავალჯერადია. გამოიყენება რამდენიმე ელემენტისთვის, რომელთაც ერთი და იგივე სტილი სჭირდებათ (CSS-ში იწერება .-ით). -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">    
+</head>
+<body> 
+
+
+<div style="color: rgb(215, 14, 14); border: 6px solid rgb(14, 238, 70)  ">
+
+<p>my name is</p>
+<p>my number is</p>
+<p>my friend is</p>
+
+
+<!-- კი ყველა პარაგრაფმა მიღოო ერთი და იგივე სტილი -->
+</div>
+
+ 
+
+    
+    <div id="banner">ეს არის ბანერის ტექსტი</div>
+
+     
+    <p class="box">პირველი პარაგრაფი</p>
+    <p class="box">მეორე პარაგრაფი</p>
+
+    
+    <div class="main">
+        <p>ეს პარაგრაფი არის div-ის შიგნით (გასტილულია)</p>
+    </div>
+    <p>ეს პარაგრაფი არის div-ის გარეთ (ჩვეულებრივია)</p>
+
+     
+    <h1 id="title" class="red-text">სათაური</h1>
+
+
+<!-- h1 იქნება ლურჯი (blue) ფერის.
+
+მიზეზი 
+CSS-ში id სელექტორს აქვს უფრო მაღალი პრიორიტეტი სპეციფიკურობა ვიდრე class სელექტორს 
+
+იმის მიუხედავად თუ რომელი წერია CSS ფაილში პირველი ან ბოლო ბრაუზერი ყოველთვის id-ის სტილს მიანიჭებს უპირატესობას class-თან შედარებით -->
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
+

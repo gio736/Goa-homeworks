@@ -1,0 +1,101 @@
+
+
+
+<!-- Inline  სტილი იწერება უშუალოდ HTML ტეგის შიგნით, style ატრიბუტის გამოყენებით.
+
+მაგალითი: <p style="color: red;">ტექსტი</p>
+
+პლიუსი: სწრაფია პატარა ცვლილების ტესტირებისთვის. ყველაზე მაღალი პრიორიტეტი აქვს.
+
+მინუსი: კოდი ხდება გაუგებარი და რთულად მოსავლელი.
+
+Internal (შიდა / დოკუმენტში): სტილები იწერება იმავე HTML ფაილში, <head> სექციაში განთავსებულ <style> ტეგებს შორის.
+
+მაგალითი: <style> p { color: red; } </style>
+
+პლიუსი: კარგია, თუ მხოლოდ ერთი კონკრეტული HTML გვერდის გასტილვა გინდა.
+
+მინუსი: ზრდის HTML ფაილის ზომას და სხვა გვერდებზე ამ სტილებს ვერ გამოიყენებ.
+
+External (გარე ფაილი): სტილები იწერება სრულიად ცალკე .css ფაილში (მაგ: style.css), რომელიც HTML ფაილს უკავშირდება <link> ტეგის მეშვეობით.
+
+მაგალითი: <link rel="stylesheet" href="style.css">
+
+პლიუსი: ყველაზე სწორი და პროფესიონალური გზაა. ერთი CSS ფაილით შეგიძლია ასობით HTML გვერდი განსტილო, ინარჩუნებს სუფთა კოდს და საიტიც უფრო სწრაფად იტვირთება   -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+ 
+<style>
+
+    
+#first_h1{ color: blue; background-color: azure;text-align: left;}
+
+#second_h1{font-size: x-large; color: red; text-align: left;}
+
+#third_h1{color: aqua; background-color: black; text-align: left;}
+
+#fourth_h1{color: aquamarine; background-color: darkseagreen; text-align: center;}
+                                     
+#fifth_h1{color: chartreuse; font-size: medium; background-color: brown; text-align: left;}
+
+                               
+
+</style>
+
+
+</head>
+<body>
+    
+<p style="color: blue; border: solid 3px orange;">bugati</p>
+<p style="width: min-content ; font-size: medium; border: solid green;"> spider-man </p>
+<p style="color: black; border: solid red; font-size: x-large;"> venom</p>
+<p style="text-align: center; font-size: large;color: aqua; border: solid 2px purple;"> bmw</p>
+ 
+ 
+  
+<h1 id="first_h1">joistik ps4</h1>
+<h1 id="second_h1">  manqana Mersedes benz </h1>
+<h1 id="third_h1">  bird    </h1>
+<h1 id="fourth_h1"> banana  </h1>
+<h1 id="fifth_h1"> mariam dolidze </h1>
+
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>FIFA World Cup 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     
+    <h1 id="title">⚽ FIFA WORLD CUP 2026</h1>
+
+     
+    <div class="card">
+        <h2>მასპინძელი ქვეყნები</h2>
+        <p>ტურნირი გაიმართება აშშ-ში, კანადასა და მექსიკაში.</p>
+    </div>
+
+    <div class="card2">
+        <h2>მონაწილეები</h2>
+        <p>ჩემპიონატში მონაწილეობას მიიღებს 48 ეროვნული ნაკრები.</p>
+    </div>
+
+</body>
+</html> 
