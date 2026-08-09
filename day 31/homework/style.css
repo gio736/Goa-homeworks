@@ -1,0 +1,80 @@
+ 
+#div1{color: rgb(7, 37, 144);
+width: 45%;
+height: 20%;
+background-color: red;
+} 
+
+
+
+#div2{ color: rgb(181, 200, 15);
+width: 200%;
+height: 60%;
+background-color: black;
+
+}
+ 
+
+#div3{color: rgb(183, 19, 215);
+width: 30%;
+height: 50%;
+background-color: aquamarine;
+
+
+}
+
+#myh1{ color:#10bd4f ;
+font-size: x-large;
+
+
+
+
+}
+
+
+
+.rgb-1 {
+    color: rgb(255, 99, 71);    
+}
+
+.rgb-2 {
+    color: rgb(46, 139, 87);    
+}
+
+.rgb-3 {
+    color: rgb(30, 144, 255);   
+}
+
+.rgb-4 {
+    color: rgb(154, 205, 50);  
+}
+
+.rgb-5 {
+    color: rgb(218, 112, 214);  
+}
+
+
+
+
+.hex-1 {
+    color: #E67E22;            
+}
+
+.hex-2 {
+    color: #9B59B6;            
+}
+
+.hex-3 {
+    color: #1ABC9C;            
+}
+
+.hex-4 {
+    color: #F1C40F;            
+}
+
+.hex-5 {
+    color: #34495E;            
+}
+
+
+
