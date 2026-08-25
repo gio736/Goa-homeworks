@@ -1,0 +1,41 @@
+ 
+.cricket-table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+/* საცხრილო ჩარჩოები */
+.cricket-table th, 
+.cricket-table td {
+  border: 1px solid #e0e0e0;
+  padding: 8px 15px;
+}
+
+/* სათაურის ნაცრისფერი ფონი */
+.cricket-table th {
+  background-color: #ededed;
+  color: #333333;
+}
+
+
+.custom-list {
+  /* ფოტოს ჩასმა სიის მარკერად */
+  list-style-image: url('https://cdn-icons-png.flaticon.com/128/1828/1828884.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

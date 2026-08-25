@@ -1,11 +1,11 @@
 
 name ="giorgi"
 
-print("giorgi") 
+print(name) 
 
 lastname="dolidze" 
 
-print("dolidze")     
+print(lastname)     
  
 
 city = "batumi"  

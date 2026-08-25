@@ -1,0 +1,79 @@
+
+ol{list-style-type: upper-roman;
+list-style-position: inside;
+
+}
+
+
+ul{list-style-image: url(filter_list_39dp_EA33F7_FILL0_wght400_GRAD0_opsz40.png);
+
+
+
+
+
+
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;  
+}
+
+.contact-form h2 {
+  color: #3b3a5c;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+ 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  border-radius: 15px;
+  resize: none;
+}
+
+ 
+.contact-form button {
+  background-color: #7c7cff;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #6969e6;
+}
+
+
+
+
