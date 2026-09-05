@@ -1,0 +1,47 @@
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;        /* ალაგებს ელემენტებს ჰორიზონტალურ მწკრივად */
+  justify-content: flex-start; /* იწყებს ელემენტებს დასაწყისიდან (Start) */
+  gap: 15px;                  /* დაშორება ბლოკებს შორის */
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: #4a7bec;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;     /* აბრუნებს მთავარ ღერძს ვერტიკალურად */
+  justify-content: flex-start; /* იწყებს ელემენტებს ზემოდან (Start) */
+  gap: 15px;                  /* დაშორება ბლოკებს შორის */
+  padding: 20px;
+  border: 2px dashed #333;
+}
+
+.box {
+  width: 100%;                /* გაჭიმავს ელემენტებს სრულ სიგანეზე */
+  height: 60px;
+  background-color: #4a7bec;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+
+

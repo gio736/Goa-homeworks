@@ -1,0 +1,47 @@
+/* 4. Margin-ის ზონა (მუქი ნაცრისფერი) */ 
+.margin-box {
+  background-color: #666666; /* მუქი ნაცრისფერი */
+  display: inline-block;
+}
+
+.box {
+  /* 1. Content (ზომა და შიდა ტექსტი) */
+  width: 300px;
+  height: 150px;
+  background-color: #e6e6e6; /* ძალიან ღია ნაცრისფერი */
+  
+  /* ტექსტის ცენტრში დასასმელად */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+
+  /* 2. Padding (ღია ნაცრისფერი შიდა დაშორება) */
+  padding: 30px;
+  background-color: #e4e7e57f;
+
+  /* 3. Border (საშუალო ნაცრისფერი ჩარჩო) */
+  border: 25px solid #b0b0b0;
+
+  /* 4. Margin (მანძილი გარე ბლოკამდე) */
+  margin: 30px;
+}
+
+
+.box {
+  background-color: white;    /* ეს გახდება PADDING-ის ფერი */
+  padding: 30px;                /* PADDING-ის ზომა */
+
+  background-clip: content-box; /* ეს ინახავს ფონს მხოლოდ შიგნით, რის გამოც Padding-ი ცალკე ფრად გამოჩნდება */
+}
+
+
+
+
+
+
+
+
+

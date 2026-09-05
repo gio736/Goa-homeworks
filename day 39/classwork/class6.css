@@ -1,0 +1,102 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+
+#parent{
+height: 400px;
+width: 400px; 
+border: 3px solid black;
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+align-items: center;
+justify-content: space-around;
+
+
+
+}
+
+
+#plaseholder{
+height: 50px;
+width: 300px;
+border: 3px solid black;
+border-radius: 5px;
+
+
+
+}
+
+
+#buttons{
+
+width: 300px;
+height: 300px;
+border: 2px solid black;
+
+
+
+}
+
+
+/* ღილაკების კონტეინერი (ბადის შექმნა) */
+.calculator-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ზუსტად 4 თანაბარი სვეტი */
+  gap: 10px;                             /* ღილაკებს შორის დაშორება */
+  padding: 15px;
+}
+
+/* ყველა ღილაკის ზოგადი სტილი */
+.calculator-keys button {
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+/* მოქმედების ღილაკები (+, -, *, /) */
+.calculator-keys .operator {
+  background-color: #333333;
+  color: white;
+}
+
+/* "C" (წაშლის) ღილაკი */
+.calculator-keys .clear {
+  background-color: #cc0000;
+  color: white;
+}
+
+/* "=" ღილაკი */
+.calculator-keys .equal {
+  background-color: #333333;
+  color: white;
+}
+
+
+
+
+
+
+

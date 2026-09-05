@@ -1,0 +1,129 @@
+
+
+#mybody{
+display: flex;  
+justify-content: center;
+align-items: center;
+text-align: center;
+background: linear-gradient(135deg, #9bb5ff 0%, #e0c3fc 100%);
+height: 100vh;
+}
+
+
+
+
+
+
+
+#boxmodel{
+width: 350px;                   
+  padding: 40px 30px;            
+  border-radius: 20px;         
+  background-color: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+
+
+
+
+
+
+}
+
+
+#mybutton1{
+width: 180px;
+height: 40px;
+border-radius: 10px;
+border: 2px solid gray;
+
+
+}
+
+#mybutton2{
+width: 180px;
+height: 40px;
+border-radius: 10px;
+background-color: blue;
+color: white;
+border: none;
+}
+
+
+
+#mybutton3{
+height: 40px;
+width: 350px;
+border-radius: 8px;
+background-color:  blue;
+color: white;
+border: none;
+}
+
+
+#mylink{
+text-decoration: none;
+color: aqua;
+
+
+
+}
+
+
+#myinput{
+width: 100%;
+  height: 48px;                  
+  padding: 0 16px;               
+  margin-bottom: 16px;           
+  border: 1px solid #e2e8f0;     
+  border-radius: 10px;
+  background-color: #fafafa;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+ 
+
+/* გარე გაერთიანებული ჩარჩო */
+.tabs-container {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 4px;
+  background-color: #f9f9f9;
+}
+
+/* შიდა ღილაკები */
+.tab-btn {
+  flex: 1;                     /* ორივე ღილაკი იკავებს თანაბარ ფართობს */
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;          /* ღილაკის კუთხეები */
+  transition: all 0.2s ease;
+}
+
+/* აქტიური ტაბი (რომელიც არჩეულია) */
+.tab-btn.active {
+  background-color: #0044ff;  /* აქტიური ტაბის ფერი */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
