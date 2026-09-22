@@ -1,0 +1,43 @@
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+
+#mydiv1{
+border: 2px solid black;
+height: 400px;
+width: 500px;
+background-color: cornflowerblue;
+
+}
+
+
+
+
+#mydiv2{
+border: 2px solid black;
+height: 100px;
+width: 100px;
+background-color: gold;
+position: absolute;
+top: 230px;
+right: 140px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

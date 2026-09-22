@@ -1,0 +1,62 @@
+
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(213, 201, 25);
+
+}
+
+
+
+a{
+
+text-decoration: overline rgb(12, 196, 216);
+color: black;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+#mydiv{
+height: 400px;
+width: 400px;
+border: 2px solid black;
+text-align: center;
+background-color: hotpink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

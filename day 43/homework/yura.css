@@ -1,0 +1,30 @@
+
+*{
+box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+}
+
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: white;
+}
+
+
+
+#mydiv2{
+height: 550px;
+width: 550px;
+background-color: white;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFer2z8IqdSi_r0xap6Kq0TLr1Zo6_Wk6DGR-JLyoQJAinncznwx62ALE&s=10);
+background-repeat: repeat-x;
+background-size: contain;
+
+
+}
+
+

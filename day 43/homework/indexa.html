@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="yura.css">    
+</head>
+<body>
+    
+
+
+
+
+<div id="mydiv2"></div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+<!--  
+   1. POSITION: FIXED
+   
+   - რას აკეთებს: ელემენტს ამაგრებს ეკრანის (Viewport) მიმართ.
+   - წარმოსახვა: წარმოიდგინე მინაზე (მონიტორზე) გარედან დაწებებული 
+     სტიკერი. გვერდი (Scroll) ზევით-ქვევით რომც ჩამოწიო, ეს ელემენტი 
+     ზუსტად იმავე ადგილას რჩება ეკრანზე და არ იძვრის.
+   - გამოყენება: Chat-ის ღილაკები, Top Header, Back-to-Top ღილაკი.
+
+.fixed-example {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+ 
+   2. POSITION: STICKY
+   
+   - რას აკეთებს: ჰიბრიდია (position: relative + position: fixed).
+   - წარმოსახვა: ჩვეულებრივად მოძრაობს გვერდთან ერთად (როგორც Relative),
+     მაგრამ როგორც კი სქროლვისას ეკრანის ზედა/ქვედა ზღვარს (მაგ. top: 0) 
+     მიაღწევს, "ეწებება" ეკრანს და ჩერდება იქ, სანამ მშობელი ბლოკი არ დამთავრდება.
+   - გამოყენება: ცხრილის სათაურები (Header), ნავიგაციის მენიუ (Navbar).
+
+
+.sticky-example {
+  position: sticky;
+  top: 0; /* ეწებება ეკრანის ზედა ნაწილს */
+}
+
+
+ 
+   3. BACKGROUND-SIZE: COVER
+   
+   - რას აკეთებს: ფოტოს ზომას ისე ცვლის, რომ ბლოკის მთლიანი ფართობი 
+     სრულად დაფაროს (არ დატოვოს ცარიელი ადგილი).
+   - წარმოსახვა: წარმოიდგინე, რომ ფოტოს ჭრი მაკრატლით — ფოტო ავსებს 
+     მთელ ბლოკს, მაგრამ თუ პროპორციები არ ემთხვევა, ფოტოს ნაწილები 
+     (გვერდები ან ზედა/ქვედა მხარე) ჩამოიჭრება (გაბადრული/დაფარული იქნება).
+
+
+.bg-cover {
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+ 
+   4. BACKGROUND-SIZE: CONTAIN
+   
+   - რას აკეთებს: ფოტოს ისე აპატარავებს/ადიდებს, რომ მთლიანი ფოტო 
+     სრულად გამოჩნდეს ბლოკში (არაფერი ჩამოიჭრას).
+   - წარმოსახვა: წარმოიდგინე ფოტოსურათი ჩარჩოში — ფოტო მთლიანად ჩანს,
+     მაგრამ თუ ჩარჩოსა და ფოტოს პროპორცია არ ემთხვევა, ბლოკის გვერდებზე 
+     ან ზევით/ქვევით დარჩება ცარიელი (გამოუყენებელი) ადგილი.
+
+
+.bg-contain {
+  background-image: url('image.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} -->
+
+
+
+
