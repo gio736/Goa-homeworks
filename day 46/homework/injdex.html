@@ -1,0 +1,99 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="indo.css">
+</head>
+<body>
+    
+
+<div id="parent">
+
+<div id="child">D</div>
+<div id="child">A</div>
+<div id="child">F</div>
+<div id="child">E</div>
+<div id="child">B</div>
+<div id="child">C</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
+
+
+
+<!-- CSS Grid Layout არის ორგანზომილებიანი (2D) განლაგების სისტემა CSS-ში, რომელიც საშუალებას გვაძლევს ელემენტები ერთდროულად განვათავსოთ როგორც სვეტებად (columns), ასევე სტრიქონებად (rows).
+
+რისთვის გამოვიყენებთ? Grid გამოიყენება ვებ-გვერდის მთლიანი სტრუქტურის (Layout), რთული ბადეების, გალერეების, დაშლილი ბარათების (Cards layout) და საიტის ძირითადი ჩონჩხის (Header, Sidebar, Main, Footer) ასაგებად.
+
+როგორ მუშაობს? კონტეინერზე display: grid;-ის მითითებით მას ვანჭებთ Grid კონტეინერის სტატუსს. ამის შემდეგ ვსაზღვრავთ სვეტებისა და სტრიქონების ზომებს, ხოლო შვილეული ელემენტები (Grid items) ავტომატურად ან ჩვენი მითითებით ნაწილდებიან შექმნილ უჯრედებში. -->
+
+
+<!-- მშობელი ელემენტის (Grid Container) თვისებები:
+display: grid; — რთავთ Grid სისტემას კონტეინერზე.
+
+grid-template-columns — განსაზღვრავს სვეტების რაოდენობასა და ზომებს.
+
+მაგალითი: grid-template-columns: 200px 1fr 200px; (სამი სვეტი: გვერდითები 200px, შუა — დარჩენილი სივრცე)
+
+მაგალითი: grid-template-columns: repeat(3, 1fr); (სამი თანაბარი სვეტი)
+
+grid-template-rows — განსაზღვრავს სტრიქონების რაოდენობასა და ზომებს.
+
+მაგალითი: grid-template-rows: 100px auto 50px;
+
+gap / grid-gap — ადგენს მანძილს უჯრედებს შორის (შეგიძლიათ ცალ-ცალკეც: row-gap, column-gap).
+
+მაგალითი: gap: 20px;
+
+justify-items — ელემენტების ჰორიზონტალური გასწორება უჯრედის შიგნით (start, end, center, stretch).
+
+align-items — ელემენტების ვერტიკალური გასწორება უჯრედის შიგნით (start, end, center, stretch).
+
+შვილეული ელემენტის (Grid Item) თვისებები:
+grid-column — განსაზღვრავს, მერამდენე სვეტის ხაზიდან მერამდენემდე უნდა გადაიჭიმოს ელემენტი.
+
+მაგალითი: grid-column: 1 / 3; (პირველი ხაზიდან მესამე ხაზამდე, ანუ 2 სვეტს დაიკავებს)
+
+მაგალითი: grid-column: span 2; (დაიკავებს 2 სვეტს)
+
+grid-row — განსაზღვრავს, მერამდენე სტრიქონის ხაზიდან მერამდენემდე უნდა გადაიჭიმოს ელემენტი.
+
+მაგალითი: grid-row: 1 / 4; -->
+
+
+<!-- 1fr (Fractional unit) არის მოქნილი ერთეული CSS Grid-ში, რომელიც აღნიშნავს Grid-კონტეინერში არსებული თავისუფალი (დარჩენილი) სივრცის 1 წილს (ფრაქციას).თუ გვაქვს $N$ რაოდენობის თანაბარი fr სტრიქონი/სვეტი, $1\text{fr}$-ის მნიშვნელობა პიქსელებში გამოითვლება ფორმულით:$$\text{1fr} = \frac{\text{მთლიანი სიმაღლე (Height)}}{\text{სტრიქონების რაოდენობა (Rows)}}$$(იმ დაშვებით, რომ უჯრედებს შორის gap არის 0).გამოანგარიშება მოცემული პირობების მიხედვით:1) Height = 1000px; Rows = 2 (grid-template-rows: repeat(2, 1fr))სულ გვაქვს 2 წილი ($1\text{fr} + 1\text{fr} = 2\text{fr}$).$1\text{fr} = \frac{1000\text{px}}{2} = \mathbf{500\text{px}}$2) Height = 1900px; Rows = 10 (grid-template-rows: repeat(10, 1fr))სულ გვაქვს 10 წილი ($10\text{fr}$).$1\text{fr} = \frac{1900\text{px}}{10} = \mathbf{190\text{px}}$3) Height = 300px; Rows = 9 (grid-template-rows: repeat(9, 1fr))სულ გვაქვს 9 წილი ($9\text{fr}$).$1\text{fr} = \frac{300\text{px}}{9} = 33.333...\text{px} \approx \mathbf{33.33\text{px}}$ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
